@@ -1,0 +1,24 @@
+{
+  "name": "your-analytics-package",
+  "version": "1.0.0",
+  "description": "Simple analytics tracking package",
+  "main": "dist/analytics.js",
+  "types": "dist/analytics.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "analytics",
+    "tracking"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/analytics-package.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
